@@ -4,11 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>서거석</title>
     <link rel="stylesheet" href="public/index.css">
+    <script src="./public/index.js"></script>
 </head>
-<style>
-    
-    
-</style>
+
 <body>
     <nav class="navbar">
         <div class="">
@@ -20,37 +18,28 @@
     <section class="text">
         <form>
             <div id="box">
-                <input type="text" id="text1">
-                <input type="button" value="추가" onclick="add_textbox()">
+                <input type="text">
+                <button onclick="addTodos()">추가</button>
             </div>
         </form>
-        <ul>
-            <li>exam</li>
-        </ul>
+        
+        
     </section>
+    <section class="main2">
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+        <input type="checkbox"> diiroxlsaljewrp;a  <button onclick="deleted()">x</button>
+    </section>
+
 
     
     
     </body>
 </body>
-<script>
-    const input = document.querySelector('input');
-    const btn = document.querySelector('button');
-    const ul = document.querySelector('ul');
-
-    const addItem = () => {
-        const text = document.createElement('li');
-        text.innerText = input.value;
-        ul.appendChild(text);
-        input.value = '';
-        input.focus();
-    }
-
-    btn.addEventListener('click', addItem);
-    input.addEventListener('keydown', (e) => {
-        if(e.key === 'Enter'){ // 눌린 키가 Enter일 때 텍스트 추가
-            addItem();
-        }
-    });
-</script>
 </html>
