@@ -6,22 +6,51 @@
     <link rel="stylesheet" href="public/index.css">
 </head>
 <style>
-    div{
-        width: 100%;
-        height: 20%;
-        background-color: greenyellow;
-    }
-    .img{
-        width: 40%;
-    }
+    
+    
 </style>
 <body>
     <nav class="navbar">
         <div class="">
                 <img src="public/codingon.png" alt="코딩온 타이틀" class="img">
-                <span>Todo List</span>
         </div>
+        <span class="title">Todo List</span>
     </nav>
+    
+    <section class="text">
+        <form>
+            <div id="box">
+                <input type="text" id="text1">
+                <input type="button" value="추가" onclick="add_textbox()">
+            </div>
+        </form>
+        <ul>
+            <li>exam</li>
+        </ul>
+    </section>
+
+    
+    
     </body>
 </body>
+<script>
+    const input = document.querySelector('input');
+    const btn = document.querySelector('button');
+    const ul = document.querySelector('ul');
+
+    const addItem = () => {
+        const text = document.createElement('li');
+        text.innerText = input.value;
+        ul.appendChild(text);
+        input.value = '';
+        input.focus();
+    }
+
+    btn.addEventListener('click', addItem);
+    input.addEventListener('keydown', (e) => {
+        if(e.key === 'Enter'){ // 눌린 키가 Enter일 때 텍스트 추가
+            addItem();
+        }
+    });
+</script>
 </html>
