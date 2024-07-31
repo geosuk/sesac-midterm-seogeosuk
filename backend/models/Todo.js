@@ -4,9 +4,9 @@ const todo = (sequelize, DataTypes)=>{
         {
             id:{
                 type: DataTypes.INTEGER,
-                primarykey:true,
-                allowNull: false,
-                autoIncrement: true
+            primaryKey: true,
+            allowNull: false,
+            autoIncrement: true,
             },
             title:{
                 type: DataTypes.STRING(255),
