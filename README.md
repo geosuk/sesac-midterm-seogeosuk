@@ -27,12 +27,12 @@
 4. "X" 버튼을 눌러 할 일 항목을 삭제할 수 있습니다.
 ---
 ## 프로젝트 구조
-📦frount
- ┣ 📂public
- ┃ ┣ 📜codingon.png
- ┃ ┣ 📜index.css
- ┃ ┣ 📜index.js
- ┃ ┗ 📜reset.css
+📦frount <br/>
+ ┣ 📂public <br/>
+ ┃ ┣ 📜codingon.png <br/>
+ ┃ ┣ 📜index.css <br/>
+ ┃ ┣ 📜index.js <br/>
+ ┃ ┗ 📜reset.css <br/>
  ┗ 📜index.html
 
  
