@@ -7,24 +7,32 @@
 
 ---
 ## 기술 스택
-<img src="https://img.shields.io/badge/TypeScript-#E34F26?style=flat&logo=TypeScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/>
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- jQuery
-- Axios
 ---
 
 ## 설치 및 실행 방법
-git clone https://github.com/yourusername/codingon-todo.git
-cd codingon-todo
-npm install
-npm start
+- git clone https://github.com/yourusername/codingon-todo.git
+- cd codingon-todo
+- npm install
+- npm start
+---
+## 사용 방법
+1. 홈페이지에 접속하면 "Today's Todo" 입력란이 보입니다.
+2. 할 일을 입력하고 "작성" 버튼을 눌러 목록에 추가합니다.
+3. 할 일 항목 옆의 체크박스를 클릭하여 완료 상태로 표시할 수 있습니다.
+4. "X" 버튼을 눌러 할 일 항목을 삭제할 수 있습니다.
+---
+## 프로젝트 구조
+📦frount
+ ┣ 📂public
+ ┃ ┣ 📜codingon.png
+ ┃ ┣ 📜index.css
+ ┃ ┣ 📜index.js
+ ┃ ┗ 📜reset.css
+ ┗ 📜index.html
+
+ 
